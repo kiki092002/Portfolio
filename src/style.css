@@ -4,7 +4,7 @@ body{
 section{
     height: 500px;
     background-color:green;
-    border: solid black 1 px;
+    border: solid blue 1 px;
 
 
 }
@@ -42,6 +42,11 @@ li{
 
 h1{
     font-size: 80px;
+    margin:0;
+}
+h2{
+    font-size: 70px;
+
 }
 p{
     margin: 0;
@@ -88,3 +93,13 @@ p{
     height: 80px;
     margin: 30px;
 }
+.social{
+    margin: 10px;
+}
+.sub-section{
+    display : flex;
+    justify-content: space-around;
+    padding: 60px;
+
+}
+
