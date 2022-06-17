@@ -50,7 +50,10 @@ p{
 }
 .subtext{
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 200;
+    color: black;
+    
+    font:smaller;
 }
 .hero-area{
     display: flex;
@@ -85,6 +88,9 @@ p{
     
     
 
+}
+.information{
+    color: lightblue;
 }
 .button:hover{
     background-color: lightyellow;
@@ -138,9 +144,10 @@ p{
     width: 300px;
     height:500px;
     color: lightblue;
-    border-radius: 250px;
+    
     box-shadow: 5px 5px 20px rgb(197,195,195);
     margin:10px;
+    text-align: center;
 }
 .project-container{
     display: flex;
@@ -158,4 +165,8 @@ hr{
 a{
     text-decoration: none;
     color: white;
+}
+.header{
+    text-align: center;
+    color: lightblue;
 }
