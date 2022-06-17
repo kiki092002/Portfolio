@@ -10,14 +10,7 @@
     </head>
     <body>
         <section class= "hero">
-            <!-- <nav>
-                <img class = "logo" src="src/images/" alt= "Logo"/>
-                <ul>
-                    <li>About Me</li>
-                    <li>Academic Projects</li>
-                    <li>Contact Me</li>
-                </ul>
-            </nav> -->
+            
             <div class="hero-area">
                 <div class="hero-text">
                     <h1> Nga Hoang</h1>
@@ -25,13 +18,13 @@
                     
                         <ul>
                             <li>
-                                <div class="button"> About Me </div>
+                                <a href="#about-me"><div class="button">About Me</div></a>
                             </li>
                             <li>
-                                <div class="button"> Projects </div>
+                                <a href="#projects"><div class="button"> Projects </div></a>
                             </li>
                             <li>
-                                <div class="button"> Contact Me </div>
+                                <a href="#contact-me"><div class="button"> Contact Me </div></a>
                             </li>
                         </ul>
                     
@@ -49,7 +42,7 @@
             </div>
 
         </section>
-        <section class="sub-section">
+        <section class="sub-section" id="about-me">
             <div class="information">
                 <h2>About Me</h2>
                 <p> Hello, My name is Nga Hoang. I am a senior computer science student.</p>
@@ -58,19 +51,40 @@
                 <img class= "headshot" src="src/images/7FA1B2C6-FA99-4A86-A67C-F741CAA6B640.jpg" alt= "my picture"/>
             </div>
         </section>
-        <section class="sub-section-aternative">
+        <section class="sub-section-aternative" id="projects">
             <h2>Academic Projects</h2>
             <div class="project-container">
                 <div class="project-card">
-                    
+                    <h3>Network File System</h3>
+                    <p class="subtext"></p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link">View  here</a></p>
                 </div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
+                <div class="project-card">
+                    <h3>Parallel Zip</h3>
+                    <p class="subtext"></p>
+                    <hr/>
+                    <p class="subtext">View  here</p>
+                </div>
+                <div class="project-card">
+                    <h3>Online Manga Bookstore</h3>
+                    <p class="subtext"></p>
+                    <hr/>
+                    <p class="subtext">View  here</p>
+                </div>
+                <div class="project-card">
+                    <h3>A Simple Shell</h3>
+                    <p class="subtext"></p>
+                    <hr/>
+                    <p class="subtext">View  here</p>
+                </div>
             </div>
 
         </section>
-        <footer></footer>
+        <footer id="contact-me">
+            <h2>Contact Me</h2>
+            <p>nhoang2@seattleu.edu</p>
+        </footer>
         <script src = "src/app.js" > </script>
     </body>
 </html>
